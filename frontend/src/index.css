@@ -1,0 +1,46 @@
+.border{
+    border: 3px solid red !important;
+}
+
+.myButton{
+    border-radius: 5px !important;
+    border: 1px solid #888 !important;
+    text-transform: capitalize !important;
+    padding: 7px 15px !important;
+    font-size: 16px !important;
+}
+.myBottom .Mui-selected{
+    border: 1px solid rgba(233, 69, 96, 0.5);
+    color: #e94560;
+    background-color: inherit;
+}
+
+.my_cardDark{
+  box-shadow: 0 0 10px rgb(27, 62, 4) inset !important;
+}
+
+/* Scroll */
+ 
+::-webkit-scrollbar {
+    width: 0.8rem;
+   }
+   
+  ::-webkit-scrollbar-track {
+    border: 7px solid #232943;
+    box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #777;
+    border-radius: 5px;
+  }
+   
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888;
+  }
+  
+html{
+  scroll-behavior: smooth;
+}
+
